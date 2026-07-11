@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local backup (contains names / Spanish; not for the public repo)
+proyecto_cervical_cancer_backup_preplantilla.ipynb

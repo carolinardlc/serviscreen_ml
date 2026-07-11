@@ -1,0 +1,31 @@
+# Project: Cervical cancer classification (UCI Risk Factors)
+# Python 3.12 recommended.
+# On macOS, xgboost/lightgbm require the OpenMP runtime:  brew install libomp
+
+# --- Data and compute core ---
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+
+# --- Machine learning ---
+scikit-learn>=1.4
+imbalanced-learn>=0.12      # SMOTE and Pipeline without data leakage
+xgboost>=2.0
+lightgbm>=4.0
+
+# --- Feature selection with genetic algorithms ---
+deap>=1.4
+
+# --- Interpretability ---
+shap>=0.44
+
+# --- Visualization ---
+matplotlib>=3.8
+seaborn>=0.13
+missingno>=0.5
+
+# --- Jupyter environment ---
+jupyter>=1.0
+ipykernel>=6.0
+notebook>=7.0
+nbconvert>=7.0
